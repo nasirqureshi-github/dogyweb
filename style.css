@@ -115,6 +115,9 @@ button {
   margin-top: 10px;
   margin-left: 20%;
 }
+.btn-contact{
+  padding: 2%;
+}
 .btn-contact a{
   text-decoration: none;
   color: white;
@@ -273,6 +276,7 @@ section#about {
   margin-top: 10%;
   padding-top: 0;
   position: relative;
+  overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -281,7 +285,7 @@ section#about {
   max-height: 60rem;
   position: absolute;
   overflow: hidden;
-margin-left: -10px;
+   margin-left: -10px;
   
 }
 
@@ -369,6 +373,7 @@ footer .fa-brands {
     padding-bottom: 20px;
     padding-top: 0%;
   }
+
 .navbar-toggler{
   margin-right: 20px;
 }
@@ -387,6 +392,10 @@ footer .fa-brands {
   }
   .nav-link {
     padding-top: 30px;
+  }
+
+  input.Search {
+ margin-left: 3%;
   }
   /* end of mobile resposive navebar******** */
 
@@ -458,8 +467,9 @@ footer .fa-brands {
 
   /* post section */
   .post-section img {
-    width: 21.6rem;
-  
+    /* width: 21.6rem; */
+    width: 100%;
+    display: block;
   }
   .post-section .date {
     padding-top: 20px;
